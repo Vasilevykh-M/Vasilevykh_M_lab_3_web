@@ -1,0 +1,65 @@
+.main_grid {
+    background-color: rgb(13, 233, 145);
+    height: auto;
+    min-height: 95vh;
+    min-width: 95vh;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.main_grid *{
+    align-self: center;
+    justify-self: center;
+}
+
+.heap
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.header
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header *{
+    height: 2rem;
+    width: 4rem;
+    color: blueviolet;
+    border: solid 0.4vh;
+    border-radius: 1vh;
+    background-color: aliceblue;
+}
+
+.translate:active, .login:active, .logout:active
+{   
+    background-color: rgb(13, 233, 145);
+    color: aliceblue;
+}
+
+.heap *{
+    align-self: center;
+    justify-self: center;
+}
+
+.input_field, .add_button
+{
+    height: 2rem;
+    width: 15rem;
+    color: blueviolet;
+    border: solid 0.4vh;
+    border-radius: 1vh;
+}
+h1, h2 {
+    color:blueviolet
+}
+
+
+.add_button{
+    background-color: aliceblue;
+}
+.add_button:active{
+    background-color: rgb(13, 233, 145);
+    color: aliceblue;
+}
