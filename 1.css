@@ -11,7 +11,7 @@
     justify-self: center;
 }
 
-.heap
+.heap_RU, .heap_EN
 {
     display: grid;
     grid-template-columns: 1fr;
